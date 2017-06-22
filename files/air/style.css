@@ -1,6 +1,4 @@
 /* elements Air */
-* html .nav-level-1 {top: 15px !important;}
-* html .nav-level-2 {top: 0 !important;}
 html {
 	font: normal 12px arial;
 	color: #fff;
@@ -93,9 +91,8 @@ label {cursor:pointer}
 	cursor: default;
 	background: transparent url('./images/nav-bottom.gif') no-repeat bottom left;
 }
-#nav-menu .nav-level-0 ul {border: 2px solid #A4D7FA;}
-#nav-menu .nav-level-0 ul a {padding: 5px;}
-#nav-menu .nav-level-2 {margin-left: -4px;}
+#nav-menu .nav ul {border: 2px solid #A4D7FA;}
+#nav-menu .nav ul a {padding: 5px;}
 /*
  * Individual NavBar LI's
  */
@@ -105,8 +102,6 @@ label {cursor:pointer}
  */
 #nav-menu a,#nav-menu a:visited {margin: 0;padding: 0;text-decoration: none;white-space: nowrap;}
 #nav-menu a:hover,#nav-menu a:visited:hover {text-decoration: none;}
-.noSidebar #bigcontain {}
-.noSidebar #sidebar {display: none;}
 .title {
 	font: normal 18px arial;
 	color: #a9abfa;
